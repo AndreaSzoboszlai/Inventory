@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Films>
+    <Film id="the_conjuring">
+        <Description value="The Conjuring"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">true</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+    <Film id="alien">
+        <Description value="Alien"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">false</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+    <Film id="the_shawshank_redemption">
+        <Description value="The Shawshank Redemption"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">false</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+    <Film id="tor">
+        <Description value="Tor"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">false</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+    <Film id="forrest_gump">
+        <Description value="Forrest Gump"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">false</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+    <Film id="ace_ventura">
+        <Description value="Ace Ventura"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">false</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+    <Film id="the_silence_of_the_lambs">
+        <Description value="The Silence of The Lambs"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">false</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+    <Film id="the_green_mile">
+        <Description value="The Green Mile"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">false</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+    <Film id="wall-e">
+        <Description value="Wall-E"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">false</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+    <Film id="frozen">
+        <Description value="Frozen"/>
+        <Evals>
+            <Eval id="age">false</Eval>
+            <Eval id="hun">false</Eval>
+            <Eval id="critique">false</Eval>
+            <Eval id="animation">false</Eval>
+            <Eval id="horror">false</Eval>
+            <Eval id="drama">false</Eval>
+            <Eval id="action">false</Eval>
+            <Eval id="comedy">false</Eval>
+        </Evals>
+    </Film>
+</Films>

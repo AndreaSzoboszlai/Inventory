@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rules>
+    <Rule id="age">
+        <Question>Would you like a movie with an age rating greater than 16?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="hun">
+        <Question>Would you like a hungarian movie?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="critique">
+        <Question>Would you like to watch a "trash movie"?</Question>
+        <Answer>
+            <Selection value="false">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="true">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="animation">
+        <Question>Would you like an animated movie?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="horror">
+        <Question>Would you like a horror movie?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="drama">
+        <Question>Would you like a drama movie?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="action">
+        <Question>Would you like an action movie?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+    <Rule id="comedy">
+        <Question>Would you like a comedy movie?</Question>
+        <Answer>
+            <Selection value="true">
+                <SingleValue value="yes"/>
+            </Selection>
+            <Selection value="false">
+                <SingleValue value="no"/>
+            </Selection>
+        </Answer>
+    </Rule>
+</Rules>
