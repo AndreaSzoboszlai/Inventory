@@ -18,7 +18,7 @@ public class Question {
         //answer = new;
         System.out.println(question);
         reader = new Scanner(System.in);
-        String reply = reader.nextLine();
+        reply = reader.nextLine();
         // aaaaaaaaaaaa
 
         // aaaaaaaaaaaa
@@ -29,6 +29,7 @@ public class Question {
 
         answer = new Answer();
         boolean evaluatedAnswer = answer.evaluateAnswerByInput(reply);
+        //System.out.println(evaluatedAnswer + "              evaluated");
         return evaluatedAnswer;
     }
 

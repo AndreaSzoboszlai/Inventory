@@ -11,18 +11,22 @@ public class Answer {
 
     public Answer() {
         values = new ArrayList<Value>();
-        value2 = new SingleValue(true, "yes");
-        addValue(value2);
+        //addValue(new SingleValue(false, "no"));
+        addValue(new SingleValue(true, "yes"));
     }
 
     public boolean evaluateAnswerByInput(String input) {
+        boolean var = false;
         for (Value v : values) {
+           // System.out.println(input + "           inpu");
+           // System.out.println(v.getInputPattern() + "           input pattern");
             if (v.getInputPattern().contains(input)) {
-                return v.getSelectionType();
+                var = v.getSelectionType();
             }
 
         }
-        return false;
+       // System.out.println(var + "           var");
+        return var;
     }
 
 

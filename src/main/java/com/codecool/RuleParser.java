@@ -33,7 +33,6 @@ public class RuleParser extends XMLParser {
                 question = rulesElement.getElementsByTagName("Question").item(i).getTextContent();
                 questionList.add(question);
                 idList.add(id);
-                quest = new Question(id, question);
                 questList.add(new Question(id, question));
 
             //aaaaaaaaaaaa

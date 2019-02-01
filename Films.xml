@@ -3,7 +3,7 @@
     <Film id="the_conjuring">
         <Description value="The Conjuring"/>
         <Evals>
-            <Eval id="age">false</Eval>
+            <Eval id="age">true</Eval>
             <Eval id="hun">false</Eval>
             <Eval id="critique">false</Eval>
             <Eval id="animation">false</Eval>

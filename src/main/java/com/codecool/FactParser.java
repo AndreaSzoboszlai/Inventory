@@ -31,7 +31,7 @@ public class FactParser extends XMLParser {
             String id = tempElement.getAttribute("id");
             Node descriptionNode = tempElement.getElementsByTagName("Description").item(0);
             String description = ((Element)descriptionNode).getAttribute("value");
-
+            idList2.add(id);
             Fact films = new Fact(id, description);
             setFactEvalutaion(films, tempElement);
             this.factRepository.addFact(films);
@@ -51,24 +51,16 @@ public class FactParser extends XMLParser {
     }
 
 /*
-
     Element rulesElement = doc.getDocumentElement();
-
     NodeList elementCount = doc.getElementsByTagName("Description");
-
             for(
     int i = 0; i<elementCount.getLength();i++)
-
     {
         */
-/*System.out.println(rulesElement.getElementsByTagName("Description").item(i).getTextContent());*//*
-
-
+    /*System.out.println(rulesElement.getElementsByTagName("Description").item(i).getTextContent());*//*
         final Node rule = rulesElement.getElementsByTagName("Film").item(i);
         id2 = rule.getAttributes().getNamedItem("id").getTextContent();
         idList2.add(id2);
-
-
                 */
 /*Element answerElement = (Element) rulesElement.getElementsByTagName("Evals").item(0);
                 Element answerElement2 = (Element) rulesElement.getElementsByTagName("Evals").item(0);
@@ -78,7 +70,6 @@ public class FactParser extends XMLParser {
                 Element answerElement6 = (Element) rulesElement.getElementsByTagName("Evals").item(0);
                 Element answerElement7 = (Element) rulesElement.getElementsByTagName("Evals").item(0);
                 Element answerElement8 = (Element) rulesElement.getElementsByTagName("Evals").item(0);
-
                 NodeList selectionNodes = answerElement.getElementsByTagName("Eval");
                 NodeList selectionNodes2 = answerElement2.getElementsByTagName("Eval");
                 NodeList selectionNodes3 = answerElement3.getElementsByTagName("Eval");
@@ -87,7 +78,6 @@ public class FactParser extends XMLParser {
                 NodeList selectionNodes6 = answerElement6.getElementsByTagName("Eval");
                 NodeList selectionNodes7 = answerElement7.getElementsByTagName("Eval");
                 NodeList selectionNodes8 = answerElement8.getElementsByTagName("Eval");
-
                 Element firstSelectionNode = (Element) selectionNodes.item(0);
                 Element firstSelectionNode2 = (Element) selectionNodes2.item(1);
                 Element firstSelectionNode3 = (Element) selectionNodes3.item(2);
@@ -96,9 +86,7 @@ public class FactParser extends XMLParser {
                 Element firstSelectionNode6 = (Element) selectionNodes6.item(5);
                 Element firstSelectionNode7 = (Element) selectionNodes7.item(6);
                 Element firstSelectionNode8 = (Element) selectionNodes8.item(7);*//*
-
-
-                */
+     */
 /*System.out.println(firstSelectionNode.getAttribute("id"));
                 System.out.println(firstSelectionNode2.getAttribute("id"));
                 System.out.println(firstSelectionNode3.getAttribute("id"));
@@ -107,9 +95,7 @@ public class FactParser extends XMLParser {
                 System.out.println(firstSelectionNode6.getAttribute("id"));
                 System.out.println(firstSelectionNode7.getAttribute("id"));
                 System.out.println(firstSelectionNode8.getAttribute("id"));*//*
-
     }
-
 */
 
 

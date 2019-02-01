@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.*;
 
 public class Fact {
     private String id;
@@ -14,11 +15,10 @@ public class Fact {
     public Fact(String id, String desctription) {
         this.id = id;
         this.desctription = desctription;
-        this.evaluations = new HashMap<String, Boolean>();
+        this.evaluations = new LinkedHashMap<String, Boolean>();
     }
 
-    public Map<String, Boolean> getEvaluations()
-    {
+    public Map<String, Boolean> getEvaluations() {
         return evaluations;
     }
 
@@ -44,9 +44,8 @@ public class Fact {
 
     public boolean getValueById(String id) {
 
-            return this.evaluations.get(id);
+        return this.evaluations.get(id);
 
 
     }
-
 }

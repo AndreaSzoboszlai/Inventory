@@ -55,12 +55,17 @@ public class ESProvider {
 
     public boolean getAnswersByQuestion(String questionId) {
         ArrayList<Question> newQ = ruleparser.getQuestionObjects();
+        boolean var = false;
         for (int i = 0; i < newQ.size(); i++) {
+            //System.out.println(newQ.get(i).getEvaluatedAnswer());
+            //System.out.println(questionId);
+            //System.out.println(newQ.get(i).getId());
             if (questionId.equals(newQ.get(i).getId())) {
-                return newQ.get(i).getEvaluatedAnswer();
+                var = newQ.get(i).getEvaluatedAnswer();
             }
         }
-        return false;
+       // System.out.println( var + "             hooroooorg?");
+        return var;
     }
 
     public String evaluate() {
@@ -83,21 +88,34 @@ public class ESProvider {
 
     public String evaluate2() {
         ArrayList<String> idS = ruleparser.getID();
-        List<String> results = new ArrayList<String>();
+
         String finalRes = "";
-
+        int i = 0;
         for (Fact facts : factparser.getFactRepository().getFacts()) {
-            for (String element : idS) {
+            List<String> results = new ArrayList<String>();
+            for (boolean value : facts.getEvaluations().values()) {
 
-                String name = facts.getId();
-                boolean value = Boolean.valueOf(name);
-                if (getAnswersByQuestion(element) == value) {
+                //boolean value = Boolean.valueOf(name);
+                //System.out.println(element);
+                //System.out.println(getAnswersByQuestion(element) + "  :  " + value);
+                ;
+                String name = idS.get(i);
+                if (getAnswersByQuestion(name) != value) {
+
                     results.add("False");
+                } else {
+                    results.add("True");
                 }
+                i++;
+
             }
-            if (!finalRes.contains("False")) {
+
+            System.out.println("");
+            if (!results.contains("False")) {
                 finalRes += facts.getDesctription() + "\n";
             }
+
+            i=0;
         }
         return finalRes;
     }
